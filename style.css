@@ -13,6 +13,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
 }
 
 body{
@@ -257,4 +258,10 @@ h3{
 .footer{
   text-align: center;
 }
- 
+
+.services,
+.navigation-main,
+.form{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
